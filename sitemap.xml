@@ -2,14 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ricardolonga.github.io/</loc>
-    <lastmod>2016-05-27T12:01:25-03:00</lastmod>
+    <loc>https://ricardolonga.github.io/</loc>
+    <lastmod>2016-05-27T15:16:54-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ricardolonga.github.io/post/welcome/</loc>
-    <lastmod>2016-05-27T12:01:25-03:00</lastmod>
+    <loc>https://ricardolonga.github.io/post/welcome/</loc>
+    <lastmod>2016-05-27T15:16:54-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ricardolonga.github.io/about/</loc>
+    <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
 </urlset>
