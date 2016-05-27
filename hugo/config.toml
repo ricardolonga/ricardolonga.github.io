@@ -1,7 +1,7 @@
 baseurl = "https://ricardolonga.github.io/"
 languageCode = "en-us"
 title = "Ricardo Longa"
-theme = "cactus"
+theme = "hugo-cactus-theme"
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
