@@ -15,7 +15,7 @@
       <pubDate>Fri, 27 May 2016 15:16:54 -0300</pubDate>
       
       <guid>https://ricardolonga.github.io/post/welcome/</guid>
-      <description>&lt;p&gt;Bem vindo ao meu novo blog pessoal, desta vez utilizando um gerador de sites estáticos em Golang e hospedando no Github pages.&lt;/p&gt;
+      <description>&lt;p&gt;Bem vindo ao meu novo blog pessoal, desta vez utilizando um &lt;a href=&#34;https://gohugo.io/&#34; title=&#34;Hugo&#34;&gt;gerador de sites estáticos&lt;/a&gt; em Golang e hospedando no &lt;a href=&#34;https://pages.github.com/&#34; title=&#34;Github Pages&#34;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
