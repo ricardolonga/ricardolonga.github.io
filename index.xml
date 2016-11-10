@@ -6,8 +6,34 @@
     <description>Recent content on Ricardo Longa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 29 May 2016 15:01:35 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 09 Nov 2016 22:25:35 -0300</lastBuildDate>
     <atom:link href="https://ricardolonga.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GopherCon Brasil 2016</title>
+      <link>https://ricardolonga.github.io/post/gophercon-brasil-2016/</link>
+      <pubDate>Wed, 09 Nov 2016 22:25:35 -0300</pubDate>
+      
+      <guid>https://ricardolonga.github.io/post/gophercon-brasil-2016/</guid>
+      <description>&lt;p&gt;Fala Gophers,&lt;/p&gt;
+
+&lt;p&gt;Neste final de semana aconteceu a primeira edição da &lt;a href=&#34;https://2016.gopherconbr.org/&#34; title=&#34;GopherCon Brasil 2016&#34;&gt;&lt;strong&gt;GopherCon Brasil 2016&lt;/strong&gt;&lt;/a&gt; e diga-se de passagem, foi um sucesso!&lt;/p&gt;
+
+&lt;p&gt;Durante os dias 4, 5 e 6 de novembro o evento recebeu na praia de Canasvieiras, em Florianópolis, 21 palestrantes e mais de 180 participantes vindos do Brasil, Chile, Canadá, Paraguai, Peru, Argentina e Estados Unidos.&lt;/p&gt;
+
+&lt;p&gt;Gostaria de parabéns a todos os envolvidos na organização, aos palestrantes pelos belíssimos assuntos expostos, ao &lt;a href=&#34;https://twitter.com/jgosset_&#34; title=&#34;John Gosset&#34;&gt;John Gosset&lt;/a&gt; por se dispor a ministrar um workshop no domingo para mais de 40 pessoas e a todos os participantes que deixaram de estar com suas famílias, curtir incríveis dias de sol e céu azul e/ou vieram de tão longe para prestigiar e abrilhantar o evento.&lt;/p&gt;
+
+&lt;p&gt;Vale lembrar que mesmo com todos os esforços da comunidade para realizar este evento, sem nossos patrocinadores não teríamos sequer saído do papel. Uma salva de palmas à eles, em especial a &lt;a href=&#34;http://www.neoway.com.br/&#34; title=&#34;Neoway&#34;&gt;&lt;strong&gt;Neoway&lt;/strong&gt;&lt;/a&gt; e a &lt;a href=&#34;https://www.stone.com.br/&#34; title=&#34;Stone&#34;&gt;&lt;strong&gt;Stone&lt;/strong&gt;&lt;/a&gt; que nos apoiaram como patrocinadores de cota máxima.&lt;/p&gt;
+
+&lt;p&gt;Não podia deixar de comentar sobre o &lt;em&gt;happy hour&lt;/em&gt; que rolou no sábado a noite com deliciosas bruschettas e 120 litros de chopp artesanal, até mais ou menos 00:30 de domingo. =P&lt;/p&gt;
+
+&lt;p&gt;Se já não bastasse tantas coisas boas, se liga nessa: muitas empresas anunciaram no evento que estão contratando Go developers, como a Neoway, Stone, Nuveo, Globo.com e a Luiza Labs. &lt;em&gt;#ficaadica&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Antes que eu me esqueça, a &lt;strong&gt;segunda edição está confirmada&lt;/strong&gt; para a segunda semana de novembro de 2017, acompanhe mais informações pelas redes sociais. \o/&lt;/p&gt;
+
+&lt;p&gt;Um abraço e até o próximo post!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Golang no TDC de SP</title>
