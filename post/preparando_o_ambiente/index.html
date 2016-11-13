@@ -1,17 +1,11 @@
-
-
-
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
     <head>
         
-            <title>Posts - Ricardo Longa</title>
+            
+                <title>Preparando o ambiente</title>
+            
         
 
         <meta charset="utf-8" />
@@ -26,10 +20,20 @@
         
 
         
-        <meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://ricardolonga.github.io/post/" />
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Preparando o ambiente"/>
+<meta name="twitter:description" content="Olá aspirante a Gopher! Gostaria de compartilhar com você as dicas de preparação do ambiente de desenvolvimento que estão nestes slides: Golang. Resumindo, você precisará: Baixar e instalar o Go; Criar uma variável de ambiente chamada GOROOT apontando para o diretório onde você realizou a instalação; Criar um diretório onde você desejar (conhecido como &ldquo;workspace&rdquo;) com três sub-diretórios (bin, src e pkg); Criar uma variável de ambiente chamada GOPATH apontando para o seu &ldquo;workspace&rdquo;; Adicionar &ldquo;$GOROOT/bin&rdquo; e &ldquo;$GOPATH/bin&rdquo; na variável $PATH do seu sistema operacional."/>
+<meta name="twitter:site" content="@ricardolonga"/>
+
+
+        <meta property="og:title" content="Preparando o ambiente" />
+<meta property="og:description" content="Olá aspirante a Gopher! Gostaria de compartilhar com você as dicas de preparação do ambiente de desenvolvimento que estão nestes slides: Golang. Resumindo, você precisará: Baixar e instalar o Go; Criar uma variável de ambiente chamada GOROOT apontando para o diretório onde você realizou a instalação; Criar um diretório onde você desejar (conhecido como &ldquo;workspace&rdquo;) com três sub-diretórios (bin, src e pkg); Criar uma variável de ambiente chamada GOPATH apontando para o seu &ldquo;workspace&rdquo;; Adicionar &ldquo;$GOROOT/bin&rdquo; e &ldquo;$GOPATH/bin&rdquo; na variável $PATH do seu sistema operacional." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ricardolonga.github.io/post/preparando_o_ambiente/" />
 
 
 <meta property="og:updated_time" content="2016-11-13T20:20:45-02:00"/>
@@ -42,10 +46,18 @@
 
 
 
-        
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="">
 
+        
+<meta itemprop="name" content="Preparando o ambiente">
+<meta itemprop="description" content="Olá aspirante a Gopher! Gostaria de compartilhar com você as dicas de preparação do ambiente de desenvolvimento que estão nestes slides: Golang. Resumindo, você precisará: Baixar e instalar o Go; Criar uma variável de ambiente chamada GOROOT apontando para o diretório onde você realizou a instalação; Criar um diretório onde você desejar (conhecido como &ldquo;workspace&rdquo;) com três sub-diretórios (bin, src e pkg); Criar uma variável de ambiente chamada GOPATH apontando para o seu &ldquo;workspace&rdquo;; Adicionar &ldquo;$GOROOT/bin&rdquo; e &ldquo;$GOPATH/bin&rdquo; na variável $PATH do seu sistema operacional.">
+
+
+<meta itemprop="dateModified" content="2016-11-13T20:20:45-02:00" />
+<meta itemprop="wordCount" content="91">
+
+
+
+<meta itemprop="keywords" content="Golang," />
 
         
 
@@ -89,9 +101,10 @@ ga('send', 'pageview');
         <div id="wrapper">
 
     
+    
 <header id="header">
     
-        <h1><a href="/">Ricardo Longa</i></a></h1>
+        <h2><a href="/">Ricardo Longa</i></a></h2>
     
 
     <nav class="links">
@@ -120,6 +133,10 @@ ga('send', 'pageview');
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -208,19 +225,70 @@ ga('send', 'pageview');
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&text=Preparando%20o%20ambiente&via=ricardolonga" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&title=Preparando%20o%20ambiente" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&title=Preparando%20o%20ambiente" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&title=Preparando%20o%20ambiente" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
         
         
-            
-        
-
-        
-            <article class="post">
+        <article class="post">
     <header>
     <div class="title">
         
-            <h2><a href="https://ricardolonga.github.io/post/preparando_o_ambiente/">Preparando o ambiente</a></h2>
+            <h1><a href="https://ricardolonga.github.io/post/preparando_o_ambiente/">Preparando o ambiente</a></h1>
+            
         
         
     </div>
@@ -240,79 +308,76 @@ ga('send', 'pageview');
     </div>
 </header>
 
-    
 
-    <p>Olá aspirante a Gopher! Gostaria de compartilhar com você as dicas de preparação do ambiente de desenvolvimento que estão nestes slides: Golang. Resumindo, você precisará: Baixar e instalar o Go; Criar uma variável de ambiente chamada GOROOT apontando para o diretório onde você realizou a instalação; Criar um diretório onde você desejar (conhecido como &ldquo;workspace&rdquo;) com três sub-diretórios (bin, src e pkg); Criar uma variável de ambiente chamada GOPATH apontando para o seu &ldquo;workspace&rdquo;; Adicionar &ldquo;$GOROOT/bin&rdquo; e &ldquo;$GOPATH/bin&rdquo; na variável $PATH do seu sistema operacional.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="https://ricardolonga.github.io/post/preparando_o_ambiente/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='/categories/golang'>Golang</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="https://ricardolonga.github.io/post/gophercon-brasil-2016/">GopherCon Brasil 2016</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
+    <section id="social-share">
+        <ul class="icons">
             
-        
 
-        <time class="published"
-            datetime='2016-11-09'>
-            November 9, 2016</time>
-        <span class="author"></span>
-        
-            <p>2 minute read</p>
-        
-        
-    </div>
-</header>
 
+<li><a href="//twitter.com/share?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&text=Preparando%20o%20ambiente&via=ricardolonga" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&title=Preparando%20o%20ambiente" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&title=Preparando%20o%20ambiente" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f&title=Preparando%20o%20ambiente" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fricardolonga.github.io%2fpost%2fpreparando_o_ambiente%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
     
 
-    <p>Fala Gophers, Neste final de semana aconteceu a primeira edição da GopherCon Brasil 2016 e diga-se de passagem, foi um sucesso! Durante os dias 4, 5 e 6 de novembro o evento recebeu na praia de Canasvieiras, em Florianópolis, 21 palestrantes e mais de 180 participantes vindos do Brasil, Chile, Canadá, Paraguai, Peru, Argentina e Estados Unidos. Gostaria de parabenizar a todos os envolvidos na organização, aos palestrantes pelos belíssimos assuntos expostos, ao John Gosset por se dispor a ministrar um workshop no domingo para mais de 40 pessoas e a todos os participantes que deixaram de estar com suas famílias, curtir incríveis dias de sol e céu azul e/ou vieram de tão longe para prestigiar e abrilhantar o evento.</p>
+    <div id="content">
+        <p>Olá aspirante a Gopher!</p>
+
+<p>Gostaria de compartilhar com você as dicas de preparação do ambiente de desenvolvimento que estão nestes slides: <a href="http://slides.com/ricardolonga/golang" title="Golang"><strong>Golang</strong></a>.
+Resumindo, você precisará:</p>
+
+<ul>
+<li><a href="https://golang.org/dl/" title="Baixar e instalar o Go">Baixar e instalar o Go</a>;</li>
+<li>Criar uma variável de ambiente chamada GOROOT apontando para o diretório onde você realizou a instalação;</li>
+<li>Criar um diretório onde você desejar (conhecido como &ldquo;workspace&rdquo;) com três sub-diretórios (bin, src e pkg);</li>
+<li>Criar uma variável de ambiente chamada GOPATH apontando para o seu &ldquo;workspace&rdquo;;</li>
+<li>Adicionar &ldquo;$GOROOT/bin&rdquo; e &ldquo;$GOPATH/bin&rdquo; na variável $PATH do seu sistema operacional.</li>
+</ul>
+
+<p>Um abraço e até a próxima!</p>
+
+    </div>
 
     <footer>
-        <ul class="actions">
-            <li><a href="https://ricardolonga.github.io/post/gophercon-brasil-2016/" class="button big">Continue Reading</a></li>
-        </ul>
         <ul class="stats">
     
         
@@ -344,85 +409,37 @@ ga('send', 'pageview');
 
     </footer>
 </article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="https://ricardolonga.github.io/post/golang-tdc-sp-2016/">Golang no TDC de SP</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2016-05-29'>
-            May 29, 2016</time>
-        <span class="author"></span>
-        
-            <p>1 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>Fala Gophers, Pela primeira vez na história do The Developers Conference teremos uma trilha específica para Golang, \o/&hellip; O evento acontecerá de 05 a 09 de Julho e a trilha de Golang será no último dia, sábado. Gostaria de lembrá-los que o Call4Papers será finalizado no dia 04 de Junho e convidá-los a submeterem suas propostas de palestras. Um abraço,</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="https://ricardolonga.github.io/post/golang-tdc-sp-2016/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='/categories/golang'>Golang</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-
-        
 <ul class="actions pagination">
     
-        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
+        <li><a href="https://ricardolonga.github.io/post/gophercon-brasil-2016/"
+                class="button big previous">GopherCon Brasil 2016</a></li>
     
 
     
-        <li><a href="/post/page/2/"
-                class="button big next">Next Page</a></li>
-    
 </ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'ricardolonga';
+    var disqus_identifier = 'https:\/\/ricardolonga.github.io\/post\/preparando_o_ambiente\/';
+    var disqus_title = 'Preparando o ambiente';
+    var disqus_url = 'https:\/\/ricardolonga.github.io\/post\/preparando_o_ambiente\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
 
     </div>
     
@@ -443,9 +460,6 @@ ga('send', 'pageview');
                 </header>
             
             <ul class="icons">
-                
-                    <li><a href="https://ricardolonga.github.io/post/index.xml" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 
                     
@@ -613,9 +627,6 @@ ga('send', 'pageview');
     
         <section id="footer">
             <ul class="icons">
-                
-                    <li><a href="https://ricardolonga.github.io/post/index.xml" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 
                 
                     

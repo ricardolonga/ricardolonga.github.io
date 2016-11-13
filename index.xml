@@ -6,8 +6,31 @@
     <description>Recent content on Ricardo Longa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 09 Nov 2016 22:25:35 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Nov 2016 20:20:45 -0200</lastBuildDate>
     <atom:link href="https://ricardolonga.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Preparando o ambiente</title>
+      <link>https://ricardolonga.github.io/post/preparando_o_ambiente/</link>
+      <pubDate>Sun, 13 Nov 2016 20:20:45 -0200</pubDate>
+      
+      <guid>https://ricardolonga.github.io/post/preparando_o_ambiente/</guid>
+      <description>&lt;p&gt;Olá aspirante a Gopher!&lt;/p&gt;
+
+&lt;p&gt;Gostaria de compartilhar com você as dicas de preparação do ambiente de desenvolvimento que estão nestes slides: &lt;a href=&#34;http://slides.com/ricardolonga/golang&#34; title=&#34;Golang&#34;&gt;&lt;strong&gt;Golang&lt;/strong&gt;&lt;/a&gt;.
+Resumindo, você precisará:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/dl/&#34; title=&#34;Baixar e instalar o Go&#34;&gt;Baixar e instalar o Go&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Criar uma variável de ambiente chamada GOROOT apontando para o diretório onde você realizou a instalação;&lt;/li&gt;
+&lt;li&gt;Criar um diretório onde você desejar (conhecido como &amp;ldquo;workspace&amp;rdquo;) com três sub-diretórios (bin, src e pkg);&lt;/li&gt;
+&lt;li&gt;Criar uma variável de ambiente chamada GOPATH apontando para o seu &amp;ldquo;workspace&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;Adicionar &amp;ldquo;$GOROOT/bin&amp;rdquo; e &amp;ldquo;$GOPATH/bin&amp;rdquo; na variável $PATH do seu sistema operacional.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Um abraço e até a próxima!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GopherCon Brasil 2016</title>
